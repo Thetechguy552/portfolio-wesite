@@ -1,42 +1,28 @@
 
-    p{ 
-        font-size: 15px; 
-    }
-
-
-body {
-    font-family:Verdana, Arial, sans-serif;
-    background-color:  #E4F7FE;
-}
-
-p.aboutme {
-    border-style: solid;
-    border-width: medium;
-    position: absolute; 
-    margin-top: -24%;
-    margin-left: 33%;
-    height: 45%; min-height: 10px;
-    width: 23%; min-width: 300px;
+.container {
+  position: relative;
+  top: -140px;
+  text-align: left;
+  color: white;
 }
 /* Top left text */
 .top-left {
-    position: absolute;
-    top: 8px;
-    left: 20%;
+    position: relative;
+    top: 120px;
+    left: 4%;
     color: #E4F7FF;
     font-family: verdana;
-    font-size: 300%;
+    font-size: 200%;
 }
 /* Top left2 text */
 .top-left2 {
-    position: absolute;
-    top: 75px;
-    left: 20%;
+    position: relative;
+    top: 130px;
+    left: 4%;
     color: #E4F7FF;
     font-family: verdana;
-    font-size: 160%;
+    font-size: 120%;
 }
-
 
 .sidenav {
     height: 120%;
@@ -80,24 +66,6 @@ p.aboutme {
     Left: 13.8%;
 }
 
-#wrapper { 
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 78%; min-width: 5px; max-width: 2048px;
-    min-height: 400px;
-    background-color: #4F4F4F;
-    box-shadow: 3px 3px 3px #333333;
-    padding-top: 1px;
-    padding-right: 40px;
-    padding-left: 36px;
-    padding-bottom: 20px;
-
-} 
-
-.float {float: right;
-        margin-right: 10px;
-}
 
 .footer {
     position: absolute;
