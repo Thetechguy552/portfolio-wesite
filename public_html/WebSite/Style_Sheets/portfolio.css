@@ -1,71 +1,16 @@
 
 .container {
   position: relative;
-  top: -140px;
+  top: -4px;
   text-align: left;
   color: white;
 }
-/* Top left text */
-.top-left {
-    position: relative;
-    top: 120px;
-    left: 4%;
-    color: #E4F7FF;
-    font-family: verdana;
-    font-size: 200%;
-}
-/* Top left2 text */
-.top-left2 {
-    position: relative;
-    top: 130px;
-    left: 4%;
-    color: #E4F7FF;
-    font-family: verdana;
-    font-size: 120%;
-}
 
-.sidenav {
-    height: 120%;
-    width: 0%;
-    position: fixed;
-    z-index: 1;
-    top: -7.6%;
-    left: 0;
-    background-image: linear-gradient(#bfbfbf, #404040);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
+.masthead{
+  position: relative;
+  top: -70px;
 
-.sidenav a {
-    text-align: center;
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    background-color: #E4F7FE;
-    display: block;
-    transition: 0.3s;
 }
-
-.sidenav a:hover {
-    color: grey;
-}
-
-.sidenav .closebtn {
-    text-align: center;
-    padding-left: 270px;
-    font-size: 42px;
-    background-color: #bfbfbf;
-}
-
-.openNav {
-    color: black;
-    position: absolute;
-    top:  -1%;
-    Left: 13.8%;
-}
-
 
 .footer {
     position: absolute;
