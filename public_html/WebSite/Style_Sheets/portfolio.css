@@ -1,14 +1,16 @@
-
+.img-fluid{
+    size: 4px;
+}
 .container {
-  position: relative;
-  top: -4px;
-  text-align: left;
-  color: white;
+    position: relative;
+    top: -4px;
+    text-align: left;
+    color: white;
 }
 
 .masthead{
-  position: relative;
-  top: -70px;
+    position: relative;
+    top: -70px;
 
 }
 
