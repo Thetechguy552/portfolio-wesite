@@ -1,0 +1,133 @@
+@media screen and (max-width: 1020px) {
+
+    #header, #content, #footer, #wrapper {
+        float: none;
+        width: auto;
+
+    }
+    #subtitle, #share, #slider, #sidebar{
+        display:none;
+    }
+    p{ 
+        font-size: 24px; 
+    }
+}
+
+body {
+    font-family:Verdana, Arial, sans-serif;
+    background-color:  #E4F7FE;
+}
+
+.header {
+    width: 63%; min-width: 300px; max-width: 2048px;
+    height: 500px; min-height: 100px;
+    margin-left: 16.8%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+}
+p.aboutme {
+    border-style: solid;
+    border-width: medium;
+    position: absolute; 
+    margin-top: -24%;
+    margin-left: 33%;
+    height: 45%; min-height: 10px;
+    width: 23%; min-width: 300px;
+}
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    color: #E4F7FF;
+    font-family: verdana;
+    font-size: 300%;
+}
+/* Top left2 text */
+.top-left2 {
+    position: absolute;
+    top: 75px;
+    left: 20%;
+    color: #E4F7FF;
+    font-family: verdana;
+    font-size: 160%;
+}
+
+
+.sidenav {
+    height: 120%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: -7.6%;
+    left: 0;
+    background-image: linear-gradient(#bfbfbf, #404040);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: #E4F7FE;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+.sidenav .closebtn {
+    text-align: center;
+    padding-left: 270px;
+    font-size: 42px;
+    background-color: #bfbfbf;
+}
+
+.openNav {
+    color: black;
+    position: absolute;
+    top:  -1%;
+    Left: 13.8%;
+}
+
+img {
+    width: 75%; min-width: 80px; max-width: 2048px;
+
+}
+
+#wrapper { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%; min-width: 5px; max-width: 2048px;
+    min-height: 400px;
+    background-color: #4F4F4F;
+    box-shadow: 3px 3px 3px #333333;
+    padding-top: 1px;
+    padding-right: 40px;
+    padding-left: 36px;
+    padding-bottom: 20px;
+
+} 
+
+.float {float: right;
+        margin-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 75%;
+}
